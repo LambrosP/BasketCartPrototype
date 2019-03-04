@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketCartPrototype.API", "BasketCartPrototype\BasketCartPrototype.API.csproj", "{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{C6493E49-26D9-406F-8BD9-F1C8A7FB0F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{218CF470-F5F5-4774-ADB5-E5F93523398D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E2F732F6-D35C-4106-870E-C6BF9EC55660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketCartPrototype.Data", "BasketCartPrototype.Data\BasketCartPrototype.Data.csproj", "{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketCartPrototype.Core", "BasketCartPrototype.Core\BasketCartPrototype.Core.csproj", "{9E62D672-2A61-42FF-B579-4D4DCC55D757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketCartPrototype.Service", "BasketCartPrototype.Service\BasketCartPrototype.Service.csproj", "{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E62D672-2A61-42FF-B579-4D4DCC55D757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E62D672-2A61-42FF-B579-4D4DCC55D757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E62D672-2A61-42FF-B579-4D4DCC55D757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E62D672-2A61-42FF-B579-4D4DCC55D757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6048BD7C-CA4B-48B8-B520-DFC885FDEE7D} = {E2F732F6-D35C-4106-870E-C6BF9EC55660}
+		{62A27992-95D1-49AE-BBE4-F32ABD1F2A3D} = {218CF470-F5F5-4774-ADB5-E5F93523398D}
+		{9E62D672-2A61-42FF-B579-4D4DCC55D757} = {C6493E49-26D9-406F-8BD9-F1C8A7FB0F1E}
+		{2A8A98B7-2AB4-4D10-8F71-DB5AA661C312} = {C6493E49-26D9-406F-8BD9-F1C8A7FB0F1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F990D47-5A20-4702-B8C1-0177F0A82E74}
+	EndGlobalSection
+EndGlobal
